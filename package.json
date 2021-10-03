@@ -1,0 +1,21 @@
+{
+  "name": "api_register_login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-csp-header": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.9",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
