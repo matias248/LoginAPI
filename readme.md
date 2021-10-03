@@ -12,7 +12,7 @@ sur la plateforme via la route /users.
 
 
 Pour lancer l'API
--ouvrir un terminal sur le dossier du Projet :API_Register_LoginBackend
+-ouvrir un terminal sur le dossier du Projet :
 -Sur un terminal lancez la commande : npm run dev.(Pour ouvrir le serveur)
 
 Commandes pour tester l'API (si vous n'utilisez pas le port 3000 changes le sur URL):
@@ -21,7 +21,7 @@ Pour registrer un utilisateur(Changer NewUser et password pour les données que 
 
 curl -d "user=NewUser>&password=password" -X POST http://localhost:3000/register
 
-Pour le login et pour récupérer le token(Changer "User" et "password" pour les données d'un utilisateur ):
+Pour le login et pour récupérer le token(Changer User et password pour les données d'un utilisateur ):
 
 curl -d "user=User&password=password" -X POST http://localhost:3000/login
 
