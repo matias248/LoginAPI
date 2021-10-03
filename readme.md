@@ -17,15 +17,15 @@ Pour lancer l'API
 
 Commandes pour tester l'API (si vous n'utilisez pas le port 3000 changes le sur URL):
 
-Pour registrer un utilisateur(Changer <NewUser> et <password> pour les données que vous voudriez avoir ):
+Pour registrer un utilisateur(Changer NewUser et password pour les données que vous voudriez avoir ):
 
-curl -d "user=<NewUser>&password=<password>" -X POST http://localhost:3000/register
+curl -d "user=NewUser>&password=password" -X POST http://localhost:3000/register
 
-Pour le login et pour récupérer le token(Changer <User> et <password> pour les données d'un utilisateur ):
+Pour le login et pour récupérer le token(Changer "User" et "password" pour les données d'un utilisateur ):
 
-curl -d "user=<User>&password=<password>" -X POST http://localhost:3000/login
+curl -d "user=User&password=password" -X POST http://localhost:3000/login
 
 
-Pour obtenir les users (<token> étant le token de la commande précédente (sans les " " de la réponse JSON) ):
+Pour obtenir les users (token étant le token de la commande précédente (sans les " " de la réponse JSON) ):
 
-curl -H "Authorization: Beaber <token> " -d "user=<User>&password=<password>" -X GET http://localhost:3000/users
+curl -H "Authorization: Beaber token " -d "user=User&password=password" -X GET http://localhost:3000/users
